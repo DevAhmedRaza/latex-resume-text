@@ -1,0 +1,138 @@
+%-------------------------
+% Resume in Latex
+% Modified by: Ahmed Raza Khan
+%------------------------
+
+\documentclass[letterpaper,11pt]{article}
+
+\usepackage{latexsym}
+\usepackage[empty]{fullpage}
+\usepackage{titlesec}
+\usepackage{marvosym}
+\usepackage[usenames,dvipsnames]{color}
+\usepackage{verbatim}
+\usepackage{enumitem}
+\usepackage[hidelinks]{hyperref}
+\usepackage{fancyhdr}
+\usepackage[english]{babel}
+\usepackage{tabularx}
+\usepackage{fontawesome5}
+\usepackage{multicol}
+\setlength{\multicolsep}{-3.0pt}
+\setlength{\columnsep}{-1pt}
+\input{glyphtounicode}
+
+\pagestyle{fancy}
+\fancyhf{}
+\fancyfoot{}
+\renewcommand{\headrulewidth}{0pt}
+\renewcommand{\footrulewidth}{0pt}
+
+\addtolength{\oddsidemargin}{-0.6in}
+\addtolength{\evensidemargin}{-0.5in}
+\addtolength{\textwidth}{1.19in}
+\addtolength{\topmargin}{-.7in}
+\addtolength{\textheight}{1.4in}
+
+\urlstyle{same}
+\raggedbottom
+\raggedright
+\setlength{\tabcolsep}{0in}
+
+\titleformat{\section}{
+  \vspace{-6pt}\scshape\raggedright\large\bfseries
+}{}{0em}{}[\color{black}\titlerule \vspace{-5pt}]
+
+\pdfgentounicode=1
+
+\newcommand{\resumeItem}[1]{\item\small{{#1 \vspace{-2pt}}}}
+\newcommand{\resumeSubheading}[4]{
+  \vspace{-2pt}\item
+    \begin{tabular*}{1.0\textwidth}[t]{l@{\extracolsep{\fill}}r}
+      \textbf{#1} & \textbf{\small #2} \\
+      \textit{\small#3} & \textit{\small #4} \\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeProjectHeading}[2]{
+    \item
+    \begin{tabular*}{1.001\textwidth}{l@{\extracolsep{\fill}}r}
+      \small#1 & \textbf{\small #2}\\
+    \end{tabular*}\vspace{-6pt}
+}
+\newcommand{\resumeItemListStart}{\begin{itemize}}
+\newcommand{\resumeItemListEnd}{\end{itemize}\vspace{-5pt}}
+\newcommand{\resumeSubHeadingListStart}{\begin{itemize}[leftmargin=0.0in, label={}]}
+\newcommand{\resumeSubHeadingListEnd}{\end{itemize}}
+
+\begin{document}
+
+%----------HEADING----------
+\begin{center}
+    {\Huge \scshape ahmed raza khan} \\ \vspace{4pt}
+    \textbf{\Large \scshape MERN Stack Developer} \\ \vspace{4pt}
+    
+    % Contact Info - Line 1
+    \small \faPhone\ +91-8660347796 ~ 
+    \href{mailto:ahmedrazakhan837@gmail.com}{\faEnvelope\ \underline{ahmedrazakhan837@gmail.com}} \\ \vspace{4pt}
+    
+    % Contact Info - Line 2 (LinkedIn & GitHub)
+    \href{https://www.linkedin.com/in/ahmedrazakhan11}{\faLinkedin\ \underline{linkedin.com/in/ahmedrazakhan11}} ~ 
+    \href{https://github.com/DevAhmedRaza}{\faGithub\ \underline{github.com/DevAhmedRaza}}
+\end{center}
+
+%-----------SUMMARY-----------
+\section{Summary}
+Electronics and Instrumentation graduate pivoting to MERN Stack development with strong foundational proficiency in React, Node.js, Express, and MongoDB. Proven problem-solving skills applied to full-stack project development and eagerness to build innovative web applications. Seeking an entry-level role to leverage technical passion and analytical thinking.
+
+%-----------SKILLS-----------
+\section{Skills}
+\textbf{Languages:} HTML5, CSS, JavaScript, Java, C, C++, Python, SQL \\
+\textbf{Frameworks/tools:} React.js, Node.js, Express.js, Next.js, MongoDB, DOM, Tailwind CSS \\
+\textbf{Other skills:} Arduino, Embedded C, PLC, SCADA, IoT, STM32 \\
+
+
+%-----------INTERNSHIP-----------
+\section{Experience}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Intern}{Sep 2024 -- Dec 2024}
+    {(Govt Tool and Training Centre)}{Tools Used: PLC, SCADA, IoT}
+    \resumeItemListStart
+      \resumeItem{Gained hands-on experience in programming and troubleshooting PLC systems, contributing to the development of automation solutions.}
+      \resumeItem{Assisted in the implementation and monitoring of SCADA systems, enhancing system performance and reliability through real-time data analysis.} 
+      \resumeItem{Participated in IoT projects, collaborating with a cross-functional team to integrate smart solutions into existing operations.}
+    \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------PROJECTS-----------
+\section{Projects}
+\resumeSubHeadingListStart
+  \resumeProjectHeading
+      {\textbf{Real-Time Team Collaboration and Task Management Tool} $|$ \emph{MERN Stack }}{June 2025 -- Sep 2025}
+      \resumeItemListStart
+        \resumeItem{\textbf{To develop a full-stack, real-time platform that allows teams to create, assign, and track tasks/projects, featuring live updates and integrated user authentication.}}
+        \resumeItem{Technology Stack: Developed a full-stack Task Management Platform using MERN (MongoDB, Express, React, Node.js), demonstrating end-to-end development capabilities.}
+        \resumeItem{Real-Time Feature: Implemented WebSocket (Socket.IO) integration to enable real-time updates for task assignment, status changes, and notifications, improving team responsiveness.}
+        \resumeItem{Authentication \& Security: Created secure RESTful API endpoints and implemented JWT (JSON Web Token)-based authentication for user sign-up, login, and authorization.}
+        \resumeItem{Database Design: Designed a normalized MongoDB schema using Mongoose to manage complex relationships between users, teams, projects, and tasks efficiently.}
+        \resumeItem{Frontend Development: Built a responsive and dynamic user interface using React functional components and state management (e.g., Context API or Redux), including features like filtering and sorting tasks.}
+      \resumeItemListEnd
+  \resumeProjectHeading
+      {\textbf{Drone Development using APM 2.8 Controller} $|$ \emph{APM 2.8 (Controller) }}{February 2025 -- March 2025}
+      \resumeItemListStart
+        \resumeItem{To design, build, and rigorously program a stable autonomous drone system using the APM 2.8 flight controller, demonstrating core skills in system integration and C++/Python debugging.}
+        \resumeItem{System Integration: Designed and assembled a functional quadcopter utilizing the APM 2.8 flight controller, integrating sensors (GPS, accelerometer, gyroscope) and propulsion systems.}
+        \resumeItem{Control Programming: Implemented and fine-tuned PID control loops via the ArduPilot firmware (C++ based), achieving stable and predictable flight characteristics under varying conditions.}
+        \resumeItem{Debugging \& Optimization: Applied advanced debugging and logging techniques (Mission Planner) to troubleshoot flight instability, reducing deviation from target.}
+      \resumeItemListEnd
+\resumeSubHeadingListEnd
+
+%-----------EDUCATION-----------
+\section{Education}
+\resumeSubHeadingListStart
+  \resumeSubheading
+    {Electronics and Instrumentation Engineering}{Graduated: 2025}
+    {UBDT College of Engineering (VTU), Davangere}{CGPA: 7 / 10}
+\resumeSubHeadingListEnd
+
+\end{document}
